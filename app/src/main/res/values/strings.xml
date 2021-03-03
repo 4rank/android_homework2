@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">homework_2</string>
+    <string name="text_main">Калькулятор</string>
+    <string name="but_end">=</string>
+    <string name="but_sum">+</string>
+    <string name="but_div">/</string>
+    <string name="but_mult">*</string>
+    <string name="but_can">-</string>
+    <string name="text_end">=</string>
+    <string name="but_clear">CR</string>
+    <string name="but_sqr">√</string>
+    <string name="text_size">Текст для проверки размера шрифта</string>
+    <string name="ts_big">Большой текст</string>
+    <string name="ts_medium">Стандартный текст</string>
+    <string name="ts_small">Маленький текст</string>
+    <string name="but_ts">Изменить размер текста</string>
+    <string name="text_step">x²</string>
+    <string name="night_mode">Темная тема</string>
+    <string name="day_mode">Светлая тема</string>
+</resources>
