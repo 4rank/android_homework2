@@ -14,10 +14,6 @@
     <string name="ts_medium">Стандартный текст</string>
     <string name="ts_small">Маленький текст</string>
     <string name="but_ts">Изменить размер текста</string>
-    <string name="sw">Тема</string>
-    <string name="sw_dark">Темная тема</string>
-    <string name="sw_light">Светлая тема</string>
-    <string name="but_theme">Изменить тему</string>
     <string name="text_step">x²</string>
     <string name="night_mode">Темная тема</string>
     <string name="day_mode">Светлая тема</string>
