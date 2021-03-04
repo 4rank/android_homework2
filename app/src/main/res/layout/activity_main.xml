@@ -240,7 +240,7 @@
     <Button
         android:id="@+id/button_size"
         android:layout_width="100dp"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         android:text="@string/but_ts"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
