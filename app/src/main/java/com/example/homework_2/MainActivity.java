@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button clear;
     Button but_ts;
     RadioGroup r_g;
+    RadioButton rb1;
+    RadioButton rb2;
+    RadioButton rb3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         step = findViewById(R.id.button_step);
         clear = findViewById(R.id.button_clear);
         r_g = findViewById(R.id.radioGroup);
+        rb1 = findViewById(R.id.radio_1);
+        rb2 = findViewById(R.id.radio_2);
+        rb3 = findViewById(R.id.radio_3);
         but_ts = findViewById(R.id.button_size);
         sum.setOnClickListener(this);
         can.setOnClickListener(this);
@@ -84,7 +91,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return false;
         });
     }
-
     @SuppressLint({"SetTextI18n"})
     public void onClick(View v) {
         if (v.getId() == R.id.button_size) {
@@ -164,14 +170,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             res.setText("" + result);
         }
     }
-
-    private void multTextSize(float mult) {
+    private void multTextSize(float multp) {
         float sizeDefault = 10;
-        float sizeMult = sizeDefault * mult;
+        float sizeMult = sizeDefault * multp;
         main.setTextSize(sizeMult);
         ts.setTextSize(sizeMult);
+        end.setTextSize(sizeMult);
+        sum.setTextSize(sizeMult);
+        div.setTextSize(sizeMult);
+        mult.setTextSize(sizeMult);
+        can.setTextSize(sizeMult);
+        step.setTextSize(sizeMult);
+        sqr.setTextSize(sizeMult);
+        clear.setTextSize(sizeMult);
+        but_ts.setTextSize(sizeMult);
+        rb1.setTextSize(sizeMult);
+        rb2.setTextSize(sizeMult);
+        rb3.setTextSize(sizeMult);
     }
-
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
         int nightMode = AppCompatDelegate.getDefaultNightMode();
@@ -182,7 +198,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         return true;
     }
-
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.night_mode) {
             int nightMode = AppCompatDelegate.getDefaultNightMode();

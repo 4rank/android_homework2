@@ -202,7 +202,7 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="150dp"
+        android:layout_width="170dp"
         android:layout_height="80dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -214,7 +214,7 @@
 
         <RadioButton
             android:id="@+id/radio_1"
-            android:layout_width="150dp"
+            android:layout_width="170dp"
             android:textSize="12sp"
             android:text="@string/ts_big"
             android:layout_height="wrap_content"
@@ -222,7 +222,7 @@
 
         <RadioButton
             android:id="@+id/radio_2"
-            android:layout_width="150dp"
+            android:layout_width="170dp"
             android:textSize="12sp"
             android:text="@string/ts_medium"
             android:layout_height="wrap_content"
@@ -230,7 +230,7 @@
 
         <RadioButton
             android:id="@+id/radio_3"
-            android:layout_width="150dp"
+            android:layout_width="170dp"
             android:textSize="12sp"
             android:text="@string/ts_small"
             android:layout_height="wrap_content"
@@ -240,7 +240,7 @@
     <Button
         android:id="@+id/button_size"
         android:layout_width="100dp"
-        android:layout_height="60dp"
+        android:layout_height="80dp"
         android:text="@string/but_ts"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
