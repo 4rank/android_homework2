@@ -162,7 +162,7 @@
     <Button
         android:id="@+id/button_step"
         android:layout_width="45dp"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/text_step"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -176,7 +176,7 @@
     <Button
         android:id="@+id/button_cor"
         android:layout_width="45dp"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/but_sqr"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
